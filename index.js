@@ -1,3 +1,5 @@
 module.exports = {
-  plugins: ['tailwindcss', 'postcss-preset-env'],
+  postcssConfig: {
+    plugins: ['tailwindcss', 'postcss-preset-env'],
+  },
 }
